@@ -26,7 +26,7 @@ class _StoryPageState extends State<StoryPage> {
       body: Container(
         //TODO: Step 1 - Add background.png to this Container as a background image.
         padding: EdgeInsets.symmetric(vertical: 50.0, horizontal: 15.0),
-        constraints: BoxConstraints.expand(),
+
         child: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
