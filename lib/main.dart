@@ -31,10 +31,11 @@ class _StoryPageState extends State<StoryPage> {
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage('images/background.png'),
+            fit: BoxFit.fitWidth,
           ),
         ),
         padding: EdgeInsets.symmetric(vertical: 50.0, horizontal: 15.0),
-
+        constraints: BoxConstraints.expand(),
         child: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
